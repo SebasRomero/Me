@@ -24,7 +24,7 @@ const Project = (props: project) => {
             <div className="w-[10%] flex justify-center">
                 <Link className="px-[5px]" to={props.github}><FaGithub /></Link>
 
-                {props.try != null ? <Link className="px-[5px]" to={props.github}><BiChevronsRight /></Link> : ""}
+                {props.try != null ? <Link className="px-[5px]" to={props.try}><BiChevronsRight /></Link> : ""}
             </div>
         </section>
 
