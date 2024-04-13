@@ -42,7 +42,7 @@ const JustLearned = () => {
                 <img className="h-[14.5rem] w-[70rem]" src={circularDep2} alt="" />
               </div>
               <p>I had to move small pieces of code to the new module (C), now
-                Module C depends of Module B and Module B depends of Module C.
+                Module C depends of Module B and Module B depends of Module A.
               </p>
               <p>Be careful, you <strong>don't </strong>want that Module A depends of Module C,
                 this will create an indirect circular dependency.

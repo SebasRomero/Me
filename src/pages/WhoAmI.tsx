@@ -23,12 +23,12 @@ const WhoAmI = () => {
             <br />
             <p>I did a little game in that class that unfortunately I lost, but
               with that game I could fall in love with the programming, even
-              with my little knowledge, I could create something valueable, at
+              with my little knowledge, I could create something valuable, at
               least for me. The game was about different animals moving around
-              the screen and every time you clicked someone it will getting faster
+              the screen and every time you clicked someone it will be getting faster
               to try to click the other one, a timer was ticking and the goal
               was to catch the most animals you can in 30 seconds, at the end it
-              will show you your score.
+              will show you your final score.
             </p>
             <br />
             <p>Then I went to the university in 2019 at
@@ -39,7 +39,6 @@ const WhoAmI = () => {
             <br />
             <p>
               Apart of my love in programming:
-
             </p>
             <ul>
               <li>- I love to watch the NBA and play some basketball (Lebron is the goat). </li>
