@@ -1,0 +1,21 @@
+{
+    "information": {
+        "name": "Sebastian",
+        "last_name": "Romero",
+        "github": "sebasromero",
+        "github_url": "https://github.com/sebasromero",
+        "email": "sebastian_eromero@hotmail.com",
+        "phone": "+1 3059700394"
+    },
+    "work_experience": [
+        {
+            "company": "Coderlabs",
+            "position": "Backend Engineer",
+            "date": "Jul 2023 - Now",
+            "bullet1": "Develop every desired task from the client in the specific time required.",
+            "bullet2": "Built an entire backend system from scratch using Authorization and Authentication systems, also a succesfull interoperatibility with Amazon S3.",
+            "bullet3": "Designed and implemented a payment gateway to create subscriptions with different amounts depending of the user, improving the app revenue in a 100%."
+        }
+    ]
+
+}
