@@ -33,8 +33,8 @@ const MyProjects = () => {
           <div className="py-1">
             <Project name={passwordGenerator.name} 
             description={passwordGenerator.description}
-            github={""} 
-            try={"..."} />
+            github={passwordGenerator.github_url} 
+            try={passwordGenerator.try} />
           </div>
 
         </div>

@@ -13,6 +13,7 @@
     "password_generator": {
         "name": "Password Generator",
         "description": "I think a password generator could be handy sometimes.",
-        "github_url": ""
+        "try": "https://sebasromero.github.io/password-generator/",
+        "github_url": "https://github.com/SebasRomero/password-generator"
     }
 }
