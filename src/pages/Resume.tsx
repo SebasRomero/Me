@@ -16,7 +16,7 @@ const Resume = () => {
                 <p>Email: {information.email}</p>
                 <p>Github: <Link to={information.github_url}>{information.github}</Link></p>
               </div>
-              <div>
+              <div className='sm:ml-2'>
                 <p className='text-xl'>{information.name} {information.last_name}</p>
                 <p>Software Engineer</p>
                 <p>{information.phone}</p>
@@ -26,13 +26,13 @@ const Resume = () => {
             <section className='flex justify-between'>
               <div className='block w-[80%]'>
                 <div className='flex items-center'>
-                  <h2 className='pr-2 text-xl'>Work experience</h2> <hr className='bg-black h-0.5 lg:w-[28rem] md:w-[20rem] sm:w-[15rem]' />
+                  <h2 className='pr-2 text-xl'>Work experience</h2> <hr className='bg-black h-0.5 lg:w-[28rem] md:w-[20rem] sm:w-[15rem] w-[5rem]' />
                   <hr className='bg-black h-0.5 w-[1.5rem]' />
                   <br />
                   <br />
                 </div>
                 <div className='block'>
-                  <h2 className='text-2xl'>{work_experience[0].position} ~ {work_experience[0].company}</h2>
+                  <h2 className='text-2xl'>{work_experience[0].position} - {work_experience[0].company}</h2>
                   <span className='text-sm'>{work_experience[0].date}</span>
                   <ul>
                     <li>• {work_experience[0].bullet1}</li>
