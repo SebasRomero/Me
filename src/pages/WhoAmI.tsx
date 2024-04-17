@@ -33,7 +33,7 @@ const WhoAmI = () => {
             <br />
             <p>Then I went to the university in 2019 at
               <Link to="https://www.cuc.edu.co/"> <strong> Universidad de la Costa </strong></Link>
-              to study Systems Engineering where I learned about Data Structures,
+              to study Computer Science where I learned about Data Structures,
               Databases, Automata Theory, Logic, Networking, Software Development, etc.
             </p>
             <br />
