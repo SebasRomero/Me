@@ -10,7 +10,7 @@ const MyProjects = () => {
   return (
     <section className="p-4">
       <div className="flex justify-center">
-        <div className="lg:w-[41%] md:w-[60%] sm:w-[80%]">
+        <div className="lg:w-[41%] md:w-[60%]">
 
           <div className="pb-6">
             <p>This is some of my projects that I've built through this path to be better than yesterday.</p>

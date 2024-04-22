@@ -14,7 +14,7 @@ const Project = (props: project) => {
     return (
         <section className='flex justify-between items-center py-5 border border-black lg:h-[15rem] md:h-auto sm:h-auto w-auto'>
             <div className="w-[30%] text-center">
-                <h2 className="lg:text-2xl md:text-xl sm:text-[10px]">{props.name}</h2>
+                <h2 className="lg:text-2xl md:text-xl">{props.name}</h2>
             </div>
             <div className="w-[60%] text-start">
                 <p className="mx-[10px]">{props.description}

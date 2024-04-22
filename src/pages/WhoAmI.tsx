@@ -4,7 +4,7 @@ const WhoAmI = () => {
   return (
     <section>
       <div className="flex flex-col justify-center items-center p-4">
-        <div className="w-[41%]">
+        <div className="lg:w-[41%] md:w-[60%]">
           <article>
             <header>
               <h1 className="text-3xl underline">Who's this guy?</h1>

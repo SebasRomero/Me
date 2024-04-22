@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <section>
       <div className="flex flex-col justify-center items-center p-4">
-        <div className="lg:w-[41%] md:w-[60%] sm:w-[80%]">
+        <div className="lg:w-[41%] md:w-[60%]">
           <article>
             <header className="flex justify-between">
               <div>
@@ -33,7 +33,7 @@ const Resume = () => {
               <div>
                 <div className="flex items-center">
                   <h2 className="pr-2 text-xl">Work experience</h2>
-                  <hr className="bg-black h-0.5 lg:w-[28rem] md:w-[20rem] sm:w-[15rem] w-[5rem]" />
+                  <hr className="bg-black h-0.5 lg:w-[28rem] md:w-[20rem] w-[5rem]" />
                   <hr className="bg-black h-0.5 w-[1.5rem]" />
                   <br />
                   <br />

@@ -5,7 +5,7 @@ import circularDep3 from "../assets/circular-dep-3.svg"
 const JustLearned = () => {
   return (
       <section className="flex justify-center p-4">
-        <div className="lg:w-[41%] md:w-[60%] sm:w-[80%]">
+        <div className="lg:w-[41%] md:w-[60%]">
           <article>
             <header>
               <h2 className="text-2xl underline">How to avoid circular dependency</h2>
