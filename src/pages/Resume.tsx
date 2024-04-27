@@ -3,8 +3,8 @@ import content from "../content/resume.json";
 import Experience from "../components/Experience";
 const Resume = () => {
   const information = content.information;
-  const firstWorkExperience = content.work_experience[0];
-  const { company, bullets, date, position, tools } = firstWorkExperience;
+  const firstWorkExperience = content.work_experience[1];
+  const secondWorkExperience = content.work_experience[0];
 
   return (
     <section>
@@ -18,6 +18,10 @@ const Resume = () => {
                   Github:
                   <Link className="ml-1" to={information.github_url}>{information.github}</Link>
                 </p>
+                <p>
+                  LinkedIn:
+                  <Link className="ml-1" to={information.linkedin_url}>{information.linkedin}</Link>
+                </p>
               </div>
               
               <div>
@@ -25,7 +29,6 @@ const Resume = () => {
                   {information.name} {information.last_name}
                 </p>
                 <p>Software Engineer</p>
-                <p>{information.phone}</p>
               </div>
             </header>
             <br />
@@ -39,11 +42,18 @@ const Resume = () => {
                   <br />
                 </div>
                 <Experience
-                  company={company}
-                  date={date}
-                  position={position}
-                  tools={tools}
-                  work_experience={bullets}
+                  company={secondWorkExperience.company}
+                  date={secondWorkExperience.date}
+                  position={secondWorkExperience.position}
+                  tools={secondWorkExperience.tools}
+                  bullets={secondWorkExperience.bullets}
+                />
+                <Experience
+                  company={firstWorkExperience.company}
+                  date={firstWorkExperience.date}
+                  position={firstWorkExperience.position}
+                  tools={firstWorkExperience.tools}
+                  bullets={firstWorkExperience.bullets}
                 />
               </div>
               <div className="text-end">

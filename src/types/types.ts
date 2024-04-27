@@ -5,7 +5,7 @@ export type bullets = {
 }
 
 export type experience = {
-    work_experience: bullets
+    bullets: bullets
     position: string
     company: string
     date: string

@@ -9,9 +9,9 @@ const Experience = (props: experience) => {
         </h2>
         <span className="text-sm">{props.date}</span>
         <ul>
-          <li>• {props.work_experience.bullet1}</li>
-          <li>• {props.work_experience.bullet2}</li>
-          <li>• {props.work_experience.bullet3}</li>
+          <li>• {props.bullets.bullet1}</li>
+          <li>• {props.bullets.bullet2}</li>
+          <li>• {props.bullets.bullet3}</li>
         </ul>
         <span className="text-md">Used tools: </span>
         {

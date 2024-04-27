@@ -4,20 +4,32 @@
         "last_name": "Romero",
         "github": "sebasromero",
         "github_url": "https://github.com/sebasromero",
-        "email": "sebastian_eromero@hotmail.com",
-        "phone": "+1 3059700394"
+        "linkedin":"sebasromerog",
+        "linkedin_url":"https://linkedin.com/in/sebasromerog",
+        "email": "sebastian_eromero@hotmail.com"
     },
     "work_experience": [
+                {
+            "company": "Coderlabs",
+            "position": "Software Engineer",
+            "date": "Jan 2024 - Now",
+            "bullets": {
+                "bullet1": "Designed and implemented a payment gateway to add a way to sell different types of subscriptions to users, generating a 100% increase in app revenue.",
+                "bullet2": "Developed a complete authorization and authentication system to protect the user information and manage different roles for everyone.",
+                "bullet3": "Integrated a cloud service as Amazon S3 with a complete interoperatibility to save different documents."
+            },
+            "tools": ["NestJS","MongoDB", "GraphQL", "AWS", "Golang", "React"]    
+        },
         {
             "company": "Coderlabs",
-            "position": "Backend Engineer",
-            "date": "Jul 2023 - Now",
+            "position": "Software Engineer Intern",
+            "date": "Jul 2023 - Jan 2024",
             "bullets": {
-                "bullet1": "Develop every desired task from the client in the specific time required.",
-                "bullet2": "Built an entire backend system from scratch using Authorization and Authentication systems, also a succesfull interoperatibility with Amazon S3.",
-                "bullet3": "Designed and implemented a payment gateway to create subscriptions with different amounts depending of the user, improving the app revenue in a 100%."
+                "bullet1": "Accomplished in a 100% all of my tasks related to the backend development of a mobile application.",
+                "bullet2": "Integrated unit testing to improve more than 80% of test coverage, improving the confidence of the product.",
+                "bullet3": "Keep a closed and effective communication with the client to explore different oppinions to reach an agreement, all in favor of improving the product and its planned delivery times."
             },
-            "tools": ["NestJS","MongoDB", "GraphQL", "AWS"]    
+            "tools": ["NodeJs","MongoDB", "GraphQL", "AWS"]    
         }
     ]
 
