@@ -21,7 +21,7 @@ const MyProjects = () => {
               description={shortenerUrl.description}
               github={shortenerUrl.github_url}
               explanation={shortenerUrl.explanation}
-              try={"..."} />
+              try={shortenerUrl.try} />
           </div>
 
           <div className="py-1">
