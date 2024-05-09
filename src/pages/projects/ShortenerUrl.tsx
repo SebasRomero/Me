@@ -39,7 +39,7 @@ const ShortenerUrl = () => {
                     <img className="" src={shortener1} alt="image" />
                     <br />
                     <p>But in our case, as is just a demo we will be using a
-                        design with just one server, one database and una cache storage.
+                        design with just one server, one database and one cache storage.
                         We don't have to worry about server overloading and shard our database,
                         we will keep it simple.</p>
                     <br />
