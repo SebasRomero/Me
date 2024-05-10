@@ -1,3 +1,4 @@
+import { ReactElement } from "react"
 import { BiChevronsRight } from "react-icons/bi"
 import { FaGithub } from "react-icons/fa"
 import { Link, NavLink } from "react-router-dom"
@@ -8,11 +9,14 @@ type project = {
     github: string
     explanation?: string | null
     try?: string | null
+    tools: ReactElement[]
 }
 
 const Project = (props: project) => {
     return (
-        <section className='flex justify-between items-center py-5 border border-black lg:h-[15rem] md:h-auto sm:h-auto w-auto'>
+        <div className="border border-black">
+            
+        <section className='flex justify-between items-center py-5  lg:h-[10rem] md:h-auto sm:h-auto w-auto'>
             <div className="w-[30%] text-center">
                 <h2 className="lg:text-2xl md:text-xl">{props.name}</h2>
             </div>
@@ -23,10 +27,13 @@ const Project = (props: project) => {
             </div>
             <div className="w-[10%] flex justify-center">
                 <Link className="px-[5px]" to={props.github}><FaGithub /></Link>
-
                 {props.try != null ? <Link className="px-[5px]" to={props.try}><BiChevronsRight /></Link> : ""}
             </div>
         </section>
+        <div className="flex justify-end pr-4">
+            {props.tools}
+        </div>
+        </div>
 
     )
 }

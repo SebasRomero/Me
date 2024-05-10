@@ -1,11 +1,22 @@
 import Project from "../components/Project"
 import content from "../content/projects.json"
+import { FaGolang } from "react-icons/fa6";
+import { SiMongodb } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 
 const MyProjects = () => {
 
   const shortenerUrl = content.shortener_url
   const gonerate = content.gonerate
   const passwordGenerator = content.password_generator
+  
+  const GOLANG = <FaGolang className="size-10 text-[#2596be] px-1" />
+  const MONGO = <SiMongodb className="size-10 text-[#01ac42] px-1"/>
+  const DOCKER = <FaDocker className="size-10 text-[#2496ec] px-1"/>
+  const REACT = <FaReact className="size-10 text-[#7adefa] px-1"/>
+  const JS = <IoLogoJavascript className="size-8 bg-[#f7de1c] text-white px-1 my-1"/>
 
   return (
     <section className="p-4">
@@ -21,20 +32,23 @@ const MyProjects = () => {
               description={shortenerUrl.description}
               github={shortenerUrl.github_url}
               explanation={shortenerUrl.explanation}
-              try={shortenerUrl.try} />
+              try={shortenerUrl.try}
+              tools={[GOLANG, MONGO, DOCKER, REACT]} />
           </div>
 
           <div className="py-1">
             <Project name={gonerate.name} 
             description={gonerate.description} 
-            github={gonerate.github_url} />
+            github={gonerate.github_url}
+            tools={[GOLANG]} />
           </div>
 
           <div className="py-1">
             <Project name={passwordGenerator.name} 
             description={passwordGenerator.description}
             github={passwordGenerator.github_url} 
-            try={passwordGenerator.try} />
+            try={passwordGenerator.try}
+            tools={[JS]} />
           </div>
 
         </div>
