@@ -14,14 +14,14 @@ type project = {
 
 const Project = (props: project) => {
     return (
-        <div className="border border-black">
+        <div className="border border-black p-4">
             
-        <section className='flex justify-between items-center py-5  lg:h-[10rem] md:h-auto sm:h-auto w-auto'>
+        <section className='flex justify-between items-center py-5 lg:h-[10rem] md:h-auto sm:h-auto w-auto'>
             <div className="w-[30%] text-center">
                 <h2 className="lg:text-2xl md:text-xl">{props.name}</h2>
             </div>
             <div className="w-[60%] text-start">
-                <p className="mx-[10px]">{props.description}
+                <p className="mx-[10px] text-sm md:text-md">{props.description}
                     {props.explanation ? <NavLink className="font-semibold" to={props.explanation}> Learn more</NavLink> : null}</p>
 
             </div>
