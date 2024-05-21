@@ -11,18 +11,18 @@
     "work_experience": [
                 {
             "company": "Coderlabs",
-            "position": "Software Engineer",
+            "position": "Back-end Engineer",
             "date": "Jan 2024 - Now",
             "bullets": {
                 "bullet1": "Designed and implemented a payment gateway to add a way to sell different types of subscriptions to users, generating a 100% increase in app revenue.",
                 "bullet2": "Developed a complete authorization and authentication system to protect the user information and manage different roles for everyone.",
                 "bullet3": "Integrated a cloud service as Amazon S3 with a complete interoperability to save different documents."
             },
-            "tools": ["NestJS","MongoDB", "GraphQL", "AWS", "Golang", "React"]    
+            "tools": ["NestJS","MongoDB", "GraphQL", "AWS", "Golang"]    
         },
         {
             "company": "Coderlabs",
-            "position": "Software Engineer Intern",
+            "position": "Back-end Engineer Intern",
             "date": "Jul 2023 - Jan 2024",
             "bullets": {
                 "bullet1": "Accomplished in a 100% all of my tasks related to the backend development of a mobile application.",
