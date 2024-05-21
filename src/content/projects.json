@@ -1,7 +1,7 @@
 {
     "shortener_url": {
         "name": "Shortener Url",
-        "description": "This project was build with the intention to learn how a shortener url works and its different kind of problems like how to make sure that every new short url is stored without any conflict, the server will scale horizontally? Do we need a load balancer then. Do we need a cache?...",
+        "description": "This project was built with the intention to learn how a shortener url works and its different kind of problems like how to make sure that every new short url is stored without any conflict, the server will scale horizontally? Do we need a load balancer then. Do we need a cache?...",
         "github_url": "https://github.com/SebasRomero/shortenerUrl",
         "explanation": "/my-projects/shortener-url",
         "try": "https://shortener-url-frontend.vercel.app/"
