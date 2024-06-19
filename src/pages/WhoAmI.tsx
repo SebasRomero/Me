@@ -33,7 +33,7 @@ const WhoAmI = () => {
             <br />
             <p>Then I went to the university in 2019 at
               <Link to="https://www.cuc.edu.co/"> <strong> Universidad de la Costa </strong></Link>
-              to study Computer Science where I learned about Data Structures,
+              to study Computer Science where I learned about Data Structures, OOP,
               Databases, Automata Theory, Logic, Networking, Software Development, etc.
             </p>
             <br />
@@ -41,9 +41,10 @@ const WhoAmI = () => {
               Apart of my love in programming:
             </p>
             <ul>
-              <li>- I love to watch the NBA and play some basketball (Lebron is the goat). </li>
+              <li>- I love to watch the NBA and play some basketball (LeBron is the goat). </li>
               <li>- Hang out with my friends is like opening the gifts as a child at christmas.</li>
               <li>- I love my girlfriend, Kim, future wife and my cat, Luna.</li>
+              <li>- I basically stuck with GNU/Linux from 2022 as a main OS.</li>
             </ul>
 
             <br />
