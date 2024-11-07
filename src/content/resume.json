@@ -18,7 +18,7 @@
                 "bullet2": "Accomplish all the requirements needed by the stakeholders to deliver the exact expected MVP as a Back-end.",
                 "bullet3": "Succesfully deployed the Back-end using EC2, Nginx as a proxy and Cloudflare to associate the actual ip instance with the domain and stablish an SSL certificate."
             },
-            "tools": ["AWS", "NestJS", "NodeJS", "MongoDB", "Golang", "Nginx", "Docker", "Cloudflare", "REST"]
+            "tools": ["AWS","EC2", "SES", "NestJS", "NodeJS", "MongoDB", "Golang", "Nginx", "Docker", "Cloudflare", "REST"]
         },
         {
             "company": "Coderlabs",

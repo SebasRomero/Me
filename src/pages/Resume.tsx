@@ -3,8 +3,9 @@ import content from "../content/resume.json";
 import Experience from "../components/Experience";
 const Resume = () => {
   const information = content.information;
-  const firstWorkExperience = content.work_experience[1];
-  const secondWorkExperience = content.work_experience[0];
+  const firstWorkExperience = content.work_experience[0];
+  const secondWorkExperience = content.work_experience[1];
+  const thirdWorkExperience = content.work_experience[2];
 
   return (
     <section>
@@ -23,7 +24,7 @@ const Resume = () => {
                   <Link className="ml-1" to={information.linkedin_url}>{information.linkedin}</Link>
                 </p>
               </div>
-              
+
               <div>
                 <p className="text-xl">
                   {information.name} {information.last_name}
@@ -41,20 +42,16 @@ const Resume = () => {
                   <br />
                   <br />
                 </div>
-                <Experience
-                  company={secondWorkExperience.company}
-                  date={secondWorkExperience.date}
-                  position={secondWorkExperience.position}
-                  tools={secondWorkExperience.tools}
-                  bullets={secondWorkExperience.bullets}
-                />
-                <Experience
-                  company={firstWorkExperience.company}
-                  date={firstWorkExperience.date}
-                  position={firstWorkExperience.position}
-                  tools={firstWorkExperience.tools}
-                  bullets={firstWorkExperience.bullets}
-                />
+                {content.work_experience.map((element) => {
+                  return <Experience
+                    key={element.date}
+                    company={element.company}
+                    date={element.date}
+                    position={element.position}
+                    tools={element.tools}
+                    bullets={element.bullets}
+                  />
+                })}
               </div>
               <div className="text-end">
                 <h2 className="text-xl mt-3">Tools I Enjoy</h2>
