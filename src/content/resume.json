@@ -9,7 +9,18 @@
         "email": "sebastian_eromero@hotmail.com"
     },
     "work_experience": [
-                {
+        {
+            "company": "OpenBox",
+            "position":"Back-end Engineer",
+            "date": "Aug 2024 - Current",
+            "bullets": {
+                "bullet1": "Designed and implemented Paypal as payment gateway to add a way to sell different types of products to users.",
+                "bullet2": "Accomplish all the requirements needed by the stakeholders to deliver the exact expected MVP as a Back-end.",
+                "bullet3": "Succesfully deployed the Back-end using EC2, Nginx as a proxy and Cloudflare to associate the actual ip instance with the domain and stablish an SSL certificate."
+            },
+            "tools": ["AWS", "NestJS", "NodeJS", "MongoDB", "Golang", "Nginx", "Docker", "Cloudflare", "REST"]
+        },
+        {
             "company": "Coderlabs",
             "position": "Back-end Engineer",
             "date": "Jan 2024 - Jun 2024",
@@ -29,7 +40,7 @@
                 "bullet2": "Integrated unit testing to improve more than 80% of test coverage, improving the confidence of the product.",
                 "bullet3": "Keep a closed and effective communication with the client to explore different opinions to reach an agreement, all in favor of improving the product and its planned delivery times."
             },
-            "tools": ["NodeJs","MongoDB", "GraphQL", "AWS"]    
+            "tools": ["NodeJS","MongoDB", "GraphQL", "AWS"]    
         }
     ]
 
