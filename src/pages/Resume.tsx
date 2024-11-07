@@ -3,9 +3,6 @@ import content from "../content/resume.json";
 import Experience from "../components/Experience";
 const Resume = () => {
   const information = content.information;
-  const firstWorkExperience = content.work_experience[0];
-  const secondWorkExperience = content.work_experience[1];
-  const thirdWorkExperience = content.work_experience[2];
 
   return (
     <section>
