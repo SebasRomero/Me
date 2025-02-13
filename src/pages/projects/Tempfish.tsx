@@ -11,6 +11,7 @@ const Tempfish = () => {
                     <br />
                     <p>
                         This CLI application will help you to quickly share encrypted files and get them immediately via HTTPS with a few commands.
+                        You can use or test this tool by downloading the CLI application from the releases section in the <a className="text-blue-900" href="https://github.com/SebasRomero/tfs">GitHub repository.</a>
                     </p>
                     <br />
                     <p>
