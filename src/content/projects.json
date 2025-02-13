@@ -1,4 +1,10 @@
 {
+    "tempfish": {
+        "name": "Tempfish",
+        "description": "Tempfish - TFS or Temporary File Sharing is a CLI application will help you to quickly share encrypted files and get them immediately via HTTPS with a few commands.",
+        "github_url": "https://github.com/SebasRomero/tfs",
+        "explanation": "/my-projects/tempfish"
+    },
     "shortener_url": {
         "name": "Shortener Url",
         "description": "This project was built with the intention to learn how a shortener url works and its different kind of problems like how to make sure that every new short url is stored without any conflict, the server will scale horizontally? Do we need a load balancer then. Do we need a cache?...",
