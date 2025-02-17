@@ -6,41 +6,43 @@
         "github_url": "https://github.com/sebasromero",
         "linkedin":"sebasromerog",
         "linkedin_url":"https://linkedin.com/in/sebasromerog",
-        "email": "sebastian_eromero@hotmail.com"
+        "email": "sebastian_engineer@hotmail.com"
     },
     "work_experience": [
         {
-            "company": "OpenBox",
-            "position":"Back-end Engineer",
-            "date": "Aug 2024 - Current",
+            "company": "OpenBox (Remote)",
+            "position":"Software Engineer",
+            "date": "Aug 2024 - Jan 2025",
             "bullets": {
-                "bullet1": "Designed and implemented Paypal as payment gateway to add a way to sell different types of products to users.",
-                "bullet2": "Accomplish all the requirements needed by the stakeholders to deliver the exact expected MVP as a Back-end.",
-                "bullet3": "Succesfully deployed the Back-end using EC2, Nginx as a proxy and Cloudflare to associate the actual ip instance with the domain and stablish an SSL certificate."
+                "bullet1": "Designed and integrated PayPal and Stripe payment gateways, facilitating secure product sales and increasing transaction efficiency.",
+                "bullet2": "Designed an innovative WebSocket solution facilitating rapid synchronization of information in less than one second across diverse platforms; findings helped address the three biggest causes of delayed responses from users.",
+                "bullet3": "Engineered and launched a robust MongoDB database solution tailored for high-volume transactions, achieving 100% data availability and ensuring consistent access to critical business information across platforms.",
+                "bullet4": "Successfully deployed back-end infrastructure using EC2 and Nginx, enhancing server security and reliability by incorporating Cloudflare for TLS  encryption between server and client."
             },
-            "tools": ["AWS","EC2", "SES", "NestJS", "NodeJS", "MongoDB", "Golang", "Nginx", "Docker", "Cloudflare", "REST"]
+            "tools": ["AWS","EC2", "SES", "NestJS", "NodeJS", "MongoDB", "Golang", "Nginx", "Docker", "Cloudflare", "REST", "Stripe"]
         },
         {
-            "company": "Coderlabs",
-            "position": "Back-end Engineer",
+            "company": "Coderlabs (Remote)",
+            "position": "Software Engineer",
             "date": "Jan 2024 - Jun 2024",
             "bullets": {
-                "bullet1": "Designed and implemented a payment gateway to add a way to sell different types of subscriptions to users, generating a 100% increase in app revenue.",
-                "bullet2": "Developed a complete authorization and authentication system to protect the user information and manage different roles for everyone.",
-                "bullet3": "Integrated a cloud service as Amazon S3 with a complete interoperability to save different documents."
+                "bullet1": "Led the integration of MercadoPago as a payment gateway for subscription purchases, increasing application revenue by 100% within 2 months of launch.",
+                "bullet2": "Built a robust authorization and authentication system, enhancing user data security and streamlining role-based access for improved functionality.",
+                "bullet3": "Integrated Amazon S3 for seamless document storage, ensuring compatibility across platforms and efficient file management.",
+                "bullet4": "Played a key role in redesigning a website using Astro, React, and Tailwind CSS, improving usability and performance."
             },
-            "tools": ["NestJS","MongoDB", "GraphQL", "AWS", "Golang"]    
+            "tools": ["NestJS","MongoDB", "GraphQL", "AWS", "Golang", "NodeJS", "React", "Tailwind CSS", "Astro", "GraphQL", "AWS", "Jest"]    
         },
         {
-            "company": "Coderlabs",
-            "position": "Back-end Engineer Intern",
+            "company": "Coderlabs (Colombia)",
+            "position": "Software Engineer Intern",
             "date": "Jul 2023 - Jan 2024",
             "bullets": {
-                "bullet1": "Accomplished in a 100% all of my tasks related to the backend development of a mobile application.",
-                "bullet2": "Integrated unit testing to improve more than 80% of test coverage, improving the confidence of the product.",
-                "bullet3": "Keep a closed and effective communication with the client to explore different opinions to reach an agreement, all in favor of improving the product and its planned delivery times."
+                "bullet1": "Delivered 100% of assigned tasks for the back-end development of a mobile application, contributing to timely project completion.",
+                "bullet2": "Integrated unit tests using Jest, resolving interoperability issues and enhancing product reliability by 80% due to test coverage.",
+                "bullet3": "Maintained effective communication with clients, aligning requirements to improve product features and meet delivery deadlines through sprints every 2 weeks using Agile Methodology."
             },
-            "tools": ["NodeJS","MongoDB", "GraphQL", "AWS"]    
+            "tools": ["NodeJS","MongoDB", "Typescript", "GraphQL", "AWS"]    
         }
     ]
 
